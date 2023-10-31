@@ -1,0 +1,93 @@
+<html>
+    <head></head>
+    <body>
+      
+        <button onclick="
+            let randomnum=Math.random();
+            let checknum;
+            let result='';
+            if(randomnum<0.3)
+            {
+               checknum='rock'; 
+            }else if(randomnum>=0.31&&randomnum<=0.55)
+            {
+                checknum='scissor';
+            }
+            else
+            {
+                checknum='paper';
+            }
+
+            if(checknum==='rock')
+             {
+              result='tie';
+             }
+             else if(checknum=='scissor'){
+              result='win';
+             }else{
+                result='lost';
+             }
+             alert(`you ##: rock  computer ##: ${checknum}  you ${result} the game`);
+            ">rock</button>
+
+        <button onclick="
+         let randomnum=Math.random();
+            let checknum;
+            let result='';
+            if(randomnum<0.3)
+            {
+               checknum='rock'; 
+            }else if(randomnum>=0.31&&randomnum<=0.55)
+            {
+                checknum='scissor';
+            }
+            else
+            {
+                checknum='paper';
+            }
+
+            if(checknum==='paper')
+             {
+              result='tie';
+             }
+             else if(checknum==='scissor'){
+              result='lost';
+             }else{
+                result='win';
+             }
+             alert(`you ##: paper   computer ##: ${checknum}  you ${result} the game`);
+             
+
+        ">paper</button>
+
+        <button onclick="
+         let randomnum=Math.random();
+            let checknum;
+            let result='';
+            if(randomnum<0.3)
+            {
+               checknum='rock'; 
+            }else if(randomnum>=0.31&&randomnum<=0.55)
+            {
+                checknum='scissor';
+            }
+            else
+            {
+                checknum='paper';
+            }
+
+            if(checknum==='scissor')
+             {
+              result='tie';
+             }
+             else if(checknum=='paper'){
+              result='win';
+             }else{
+                result='lost';
+             }
+             alert(`you ##: Scissor   computer ##: ${checknum}  you ${result} the game`);
+
+        ">scissor</button>
+
+    </body>
+</html>
